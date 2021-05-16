@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli;
+package haveno.cli;
 
-import bisq.proto.grpc.TxFeeRateInfo;
+import haveno.proto.grpc.TxFeeRateInfo;
 
 import com.google.common.annotations.VisibleForTesting;
 
