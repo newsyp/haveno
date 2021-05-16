@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli;
+package haveno.cli;
 
-import bisq.proto.grpc.OfferInfo;
+import haveno.proto.grpc.OfferInfo;
 
 import java.util.List;
 import java.util.function.Function;
 
-import static bisq.cli.ColumnHeaderConstants.COL_HEADER_DIRECTION;
+import static haveno.cli.ColumnHeaderConstants.COL_HEADER_DIRECTION;
 import static java.lang.String.format;
 import static protobuf.OfferPayload.Direction.BUY;
 import static protobuf.OfferPayload.Direction.SELL;
