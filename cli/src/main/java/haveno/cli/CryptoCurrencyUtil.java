@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli;
+package haveno.cli;
 
 import java.util.ArrayList;
 import java.util.List;
