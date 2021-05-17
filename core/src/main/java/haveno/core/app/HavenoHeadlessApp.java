@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.core.trade.TradeManager;
+import haveno.core.trade.TradeManager;
 
-import bisq.common.UserThread;
-import bisq.common.app.Version;
-import bisq.common.file.CorruptedStorageFileHandler;
-import bisq.common.setup.GracefulShutDownHandler;
+import haveno.common.UserThread;
+import haveno.common.app.Version;
+import haveno.common.file.CorruptedStorageFileHandler;
+import haveno.common.setup.GracefulShutDownHandler;
 
 import com.google.inject.Injector;
 
