@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.core.btc.setup.WalletsSetup;
+import haveno.core.btc.setup.WalletsSetup;
 
-import bisq.network.p2p.BootstrapListener;
-import bisq.network.p2p.P2PService;
+import haveno.network.p2p.BootstrapListener;
+import haveno.network.p2p.P2PService;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
