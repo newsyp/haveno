@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Transaction;
@@ -87,8 +87,8 @@ public class TxInfo implements Payload {
     //////////////////////////////////////////////////////////////////////////////////////
 
     @Override
-    public bisq.proto.grpc.TxInfo toProtoMessage() {
-        return bisq.proto.grpc.TxInfo.newBuilder()
+    public haveno.proto.grpc.TxInfo toProtoMessage() {
+        return haveno.proto.grpc.TxInfo.newBuilder()
                 .setTxId(txId)
                 .setInputSum(inputSum)
                 .setOutputSum(outputSum)
