@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli.opts;
+package haveno.cli.opts;
 
 
 import joptsimple.OptionSpec;
 
-import static bisq.cli.opts.OptLabel.OPT_FEE_CURRENCY;
-import static bisq.cli.opts.OptLabel.OPT_OFFER_ID;
-import static bisq.cli.opts.OptLabel.OPT_PAYMENT_ACCOUNT;
+import static haveno.cli.opts.OptLabel.OPT_FEE_CURRENCY;
+import static haveno.cli.opts.OptLabel.OPT_OFFER_ID;
+import static haveno.cli.opts.OptLabel.OPT_PAYMENT_ACCOUNT;
 
 public class TakeOfferOptionParser extends AbstractMethodOptionParser implements MethodOpts {
 
