@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.model;
+package haveno.core.btc.model;
 
-import bisq.common.persistence.PersistenceManager;
-import bisq.common.proto.persistable.PersistableEnvelope;
-import bisq.common.proto.persistable.PersistedDataHost;
+import haveno.common.persistence.PersistenceManager;
+import haveno.common.proto.persistable.PersistableEnvelope;
+import haveno.common.proto.persistable.PersistedDataHost;
 
 import com.google.protobuf.Message;
 
