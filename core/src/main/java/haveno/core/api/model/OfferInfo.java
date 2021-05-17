@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.core.offer.Offer;
+import haveno.core.offer.Offer;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import java.util.Objects;
 
@@ -131,8 +131,8 @@ public class OfferInfo implements Payload {
     ///////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
-    public bisq.proto.grpc.OfferInfo toProtoMessage() {
-        return bisq.proto.grpc.OfferInfo.newBuilder()
+    public haveno.proto.grpc.OfferInfo toProtoMessage() {
+        return haveno.proto.grpc.OfferInfo.newBuilder()
                 .setId(id)
                 .setDirection(direction)
                 .setPrice(price)
