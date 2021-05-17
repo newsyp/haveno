@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli;
+package haveno.cli;
 
-import bisq.core.util.ParsingUtils;
+import haveno.core.util.ParsingUtils;
 
-import bisq.proto.grpc.ContractInfo;
-import bisq.proto.grpc.TradeInfo;
+import haveno.proto.grpc.ContractInfo;
+import havneo.proto.grpc.TradeInfo;
 
 import com.google.common.annotations.VisibleForTesting;
 
@@ -28,8 +28,8 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
-import static bisq.cli.ColumnHeaderConstants.*;
-import static bisq.cli.CurrencyFormat.*;
+import static haveno.cli.ColumnHeaderConstants.*;
+import static haveno.cli.CurrencyFormat.*;
 import static com.google.common.base.Strings.padEnd;
 
 @VisibleForTesting
