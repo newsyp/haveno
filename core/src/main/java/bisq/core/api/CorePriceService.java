@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api;
+package haveno.core.api;
 
-import bisq.core.provider.price.PriceFeedService;
+import haveno.core.provider.price.PriceFeedService;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -26,8 +26,8 @@ import java.util.function.Consumer;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static bisq.common.util.MathUtils.roundDouble;
-import static bisq.core.locale.CurrencyUtil.isFiatCurrency;
+import static haveno.common.util.MathUtils.roundDouble;
+import static haveno.core.locale.CurrencyUtil.isFiatCurrency;
 import static java.lang.String.format;
 
 @Singleton
