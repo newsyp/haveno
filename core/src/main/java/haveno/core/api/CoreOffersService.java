@@ -15,21 +15,21 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api;
+package haveno.core.api;
 
-import bisq.core.monetary.Altcoin;
-import bisq.core.monetary.Price;
-import bisq.core.offer.CreateOfferService;
-import bisq.core.offer.Offer;
-import bisq.core.offer.OfferBookService;
-import bisq.core.offer.OfferFilter;
-import bisq.core.offer.OfferUtil;
-import bisq.core.offer.OpenOffer;
-import bisq.core.offer.OpenOfferManager;
-import bisq.core.payment.PaymentAccount;
-import bisq.core.user.User;
+import haveno.core.monetary.Altcoin;
+import haveno.core.monetary.Price;
+import haveno.core.offer.CreateOfferService;
+import haveno.core.offer.Offer;
+import haveno.core.offer.OfferBookService;
+import haveno.core.offer.OfferFilter;
+import haveno.core.offer.OfferUtil;
+import haveno.core.offer.OpenOffer;
+import haveno.core.offer.OpenOfferManager;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.user.User;
 
-import bisq.common.crypto.KeyRing;
+import haveno.common.crypto.KeyRing;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Transaction;
@@ -48,13 +48,13 @@ import java.util.stream.Collectors;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static bisq.common.util.MathUtils.exactMultiply;
-import static bisq.common.util.MathUtils.roundDoubleToLong;
-import static bisq.common.util.MathUtils.scaleUpByPowerOf10;
-import static bisq.core.locale.CurrencyUtil.isCryptoCurrency;
-import static bisq.core.offer.OfferPayload.Direction;
-import static bisq.core.offer.OfferPayload.Direction.BUY;
-import static bisq.core.payment.PaymentAccountUtil.isPaymentAccountValidForOffer;
+import static haveno.common.util.MathUtils.exactMultiply;
+import static haveno.common.util.MathUtils.roundDoubleToLong;
+import static haveno.common.util.MathUtils.scaleUpByPowerOf10;
+import static haveno.core.locale.CurrencyUtil.isCryptoCurrency;
+import static haveno.core.offer.OfferPayload.Direction;
+import static haveno.core.offer.OfferPayload.Direction.BUY;
+import static haveno.core.payment.PaymentAccountUtil.isPaymentAccountValidForOffer;
 import static java.lang.String.format;
 import static java.util.Comparator.comparing;
 
