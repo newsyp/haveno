@@ -15,10 +15,10 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.common.setup.GracefulShutDownHandler;
-import bisq.common.setup.UncaughtExceptionHandler;
+import haveno.common.setup.GracefulShutDownHandler;
+import haveno.common.setup.UncaughtExceptionHandler;
 
 import com.google.inject.Injector;
 
