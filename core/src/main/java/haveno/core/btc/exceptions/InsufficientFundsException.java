@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.exceptions;
+package haveno.core.btc.exceptions;
 
 public class InsufficientFundsException extends Exception {
     public InsufficientFundsException(String message) {
