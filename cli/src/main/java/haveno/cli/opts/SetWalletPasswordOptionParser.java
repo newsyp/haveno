@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,13 +15,13 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli.opts;
+package haveno.cli.opts;
 
 
 import joptsimple.OptionSpec;
 
-import static bisq.cli.opts.OptLabel.OPT_NEW_WALLET_PASSWORD;
-import static bisq.cli.opts.OptLabel.OPT_WALLET_PASSWORD;
+import static haveno.cli.opts.OptLabel.OPT_NEW_WALLET_PASSWORD;
+import static haveno.cli.opts.OptLabel.OPT_WALLET_PASSWORD;
 import static joptsimple.internal.Strings.EMPTY;
 
 public class SetWalletPasswordOptionParser extends AbstractMethodOptionParser implements MethodOpts {
