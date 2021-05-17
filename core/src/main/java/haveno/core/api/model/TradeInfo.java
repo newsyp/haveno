@@ -15,20 +15,20 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.core.trade.Contract;
-import bisq.core.trade.Trade;
+import haveno.core.trade.Contract;
+import haveno.core.trade.Trade;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import java.util.Objects;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
-import static bisq.core.api.model.OfferInfo.toOfferInfo;
-import static bisq.core.api.model.PaymentAccountPayloadInfo.toPaymentAccountPayloadInfo;
+import static haveno.core.api.model.OfferInfo.toOfferInfo;
+import static haveno.core.api.model.PaymentAccountPayloadInfo.toPaymentAccountPayloadInfo;
 
 @EqualsAndHashCode
 @Getter
@@ -153,8 +153,8 @@ public class TradeInfo implements Payload {
     ///////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
-    public bisq.proto.grpc.TradeInfo toProtoMessage() {
-        return bisq.proto.grpc.TradeInfo.newBuilder()
+    public haveno.proto.grpc.TradeInfo toProtoMessage() {
+        return haveno.proto.grpc.TradeInfo.newBuilder()
                 .setOffer(offer.toProtoMessage())
                 .setTradeId(tradeId)
                 .setShortId(shortId)
