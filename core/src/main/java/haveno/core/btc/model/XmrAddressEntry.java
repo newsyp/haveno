@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.model;
+package haveno.core.btc.model;
 
-import bisq.common.proto.ProtoUtil;
-import bisq.common.proto.persistable.PersistablePayload;
-import bisq.common.util.Utilities;
+import haveno.common.proto.ProtoUtil;
+import haveno.common.proto.persistable.PersistablePayload;
+import haveno.common.util.Utilities;
 
 import org.bitcoinj.core.Coin;
 
