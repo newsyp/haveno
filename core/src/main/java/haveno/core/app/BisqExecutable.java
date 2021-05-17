@@ -15,36 +15,37 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.BsqWalletService;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.btc.wallet.XmrWalletService;
-import bisq.core.dao.DaoSetup;
-import bisq.core.dao.node.full.RpcService;
-import bisq.core.offer.OpenOfferManager;
-import bisq.core.provider.price.PriceFeedService;
-import bisq.core.setup.CorePersistedDataHost;
-import bisq.core.setup.CoreSetup;
-import bisq.core.support.dispute.arbitration.arbitrator.ArbitratorManager;
-import bisq.core.trade.statistics.TradeStatisticsManager;
-import bisq.core.trade.txproof.xmr.XmrTxProofService;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.BsqWalletService;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.btc.wallet.XmrWalletService;
+import haveno.core.dao.DaoSetup;
+import haveno.core.dao.node.full.RpcService;
+import haveno.core.offer.OpenOfferManager;
+import haveno.core.provider.price.PriceFeedService;
+import haveno.core.setup.CorePersistedDataHost;
+import haveno.core.setup.CoreSetup;
+import haveno.core.support.dispute.arbitration.arbitrator.ArbitratorManager;
+import haveno.core.trade.statistics.TradeStatisticsManager;
+import haveno.core.trade.txproof.xmr.XmrTxProofService;
 
-import bisq.network.p2p.P2PService;
+import haveno.network.p2p.P2PService;
 
-import bisq.common.UserThread;
-import bisq.common.app.AppModule;
-import bisq.common.config.BisqHelpFormatter;
-import bisq.common.config.Config;
-import bisq.common.config.ConfigException;
-import bisq.common.handlers.ResultHandler;
-import bisq.common.persistence.PersistenceManager;
-import bisq.common.proto.persistable.PersistedDataHost;
-import bisq.common.setup.CommonSetup;
-import bisq.common.setup.GracefulShutDownHandler;
-import bisq.common.setup.UncaughtExceptionHandler;
-import bisq.common.util.Utilities;
+
+import haveno.common.UserThread;
+import haveno.common.app.AppModule;
+import haveno.common.config.BisqHelpFormatter;
+import haveno.common.config.Config;
+import haveno.common.config.ConfigException;
+import haveno.common.handlers.ResultHandler;
+import haveno.common.persistence.PersistenceManager;
+import haveno.common.proto.persistable.PersistedDataHost;
+import haveno.common.setup.CommonSetup;
+import haveno.common.setup.GracefulShutDownHandler;
+import haveno.common.setup.UncaughtExceptionHandler;
+import haveno.common.util.Utilities;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;
