@@ -15,49 +15,49 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.core.account.sign.SignedWitness;
-import bisq.core.account.sign.SignedWitnessStorageService;
-import bisq.core.account.witness.AccountAgeWitnessService;
-import bisq.core.alert.Alert;
-import bisq.core.alert.AlertManager;
-import bisq.core.alert.PrivateNotificationPayload;
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.nodes.LocalBitcoinNode;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.btc.wallet.WalletsManager;
-import bisq.core.btc.wallet.XmrWalletService;
-import bisq.core.btc.wallet.http.MemPoolSpaceTxBroadcaster;
-import bisq.core.dao.governance.voteresult.VoteResultException;
-import bisq.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
-import bisq.core.locale.Res;
-import bisq.core.offer.OpenOfferManager;
-import bisq.core.payment.AmazonGiftCardAccount;
-import bisq.core.payment.PaymentAccount;
-import bisq.core.payment.RevolutAccount;
-import bisq.core.payment.payload.PaymentMethod;
-import bisq.core.trade.TradeManager;
-import bisq.core.trade.TradeTxException;
-import bisq.core.user.Preferences;
-import bisq.core.user.User;
-import bisq.core.util.FormattingUtils;
-import bisq.core.util.coin.CoinFormatter;
+import haveno.core.account.sign.SignedWitness;
+import haveno.core.account.sign.SignedWitnessStorageService;
+import haveno.core.account.witness.AccountAgeWitnessService;
+import haveno.core.alert.Alert;
+import haveno.core.alert.AlertManager;
+import haveno.core.alert.PrivateNotificationPayload;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.nodes.LocalBitcoinNode;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.btc.wallet.WalletsManager;
+import haveno.core.btc.wallet.XmrWalletService;
+import haveno.core.btc.wallet.http.MemPoolSpaceTxBroadcaster;
+import haveno.core.dao.governance.voteresult.VoteResultException;
+import haveno.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
+import haveno.core.locale.Res;
+import haveno.core.offer.OpenOfferManager;
+import haveno.core.payment.AmazonGiftCardAccount;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.payment.RevolutAccount;
+import haveno.core.payment.payload.PaymentMethod;
+import haveno.core.trade.TradeManager;
+import haveno.core.trade.TradeTxException;
+import haveno.core.user.Preferences;
+import haveno.core.user.User;
+import haveno.core.util.FormattingUtils;
+import haveno.core.util.coin.CoinFormatter;
 
-import bisq.network.Socks5ProxyProvider;
-import bisq.network.p2p.P2PService;
-import bisq.network.p2p.storage.payload.PersistableNetworkPayload;
+import haveno.network.Socks5ProxyProvider;
+import haveno.network.p2p.P2PService;
+import haveno.network.p2p.storage.payload.PersistableNetworkPayload;
 
-import bisq.common.Timer;
-import bisq.common.UserThread;
-import bisq.common.app.DevEnv;
-import bisq.common.app.Log;
-import bisq.common.app.Version;
-import bisq.common.config.BaseCurrencyNetwork;
-import bisq.common.config.Config;
-import bisq.common.util.InvalidVersionException;
-import bisq.common.util.Utilities;
+import haveno.common.Timer;
+import haveno.common.UserThread;
+import haveno.common.app.DevEnv;
+import haveno.common.app.Log;
+import haveno.common.app.Version;
+import haveno.common.config.BaseCurrencyNetwork;
+import haveno.common.config.Config;
+import haveno.common.util.InvalidVersionException;
+import haveno.common.util.Utilities;
 
 import org.bitcoinj.core.Coin;
 
