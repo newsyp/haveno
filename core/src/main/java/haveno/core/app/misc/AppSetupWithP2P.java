@@ -15,20 +15,20 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app.misc;
+package haveno.core.app.misc;
 
-import bisq.core.account.sign.SignedWitnessService;
-import bisq.core.account.witness.AccountAgeWitnessService;
-import bisq.core.filter.FilterManager;
-import bisq.core.trade.statistics.TradeStatisticsManager;
+import haveno.core.account.sign.SignedWitnessService;
+import haveno.core.account.witness.AccountAgeWitnessService;
+import haveno.core.filter.FilterManager;
+import haveno.core.trade.statistics.TradeStatisticsManager;
 
-import bisq.network.p2p.P2PService;
-import bisq.network.p2p.P2PServiceListener;
-import bisq.network.p2p.network.CloseConnectionReason;
-import bisq.network.p2p.network.Connection;
-import bisq.network.p2p.network.ConnectionListener;
-import bisq.network.p2p.peers.PeerManager;
-import bisq.network.p2p.storage.P2PDataStorage;
+import haveno.network.p2p.P2PService;
+import haveno.network.p2p.P2PServiceListener;
+import haveno.network.p2p.network.CloseConnectionReason;
+import haveno.network.p2p.network.Connection;
+import haveno.network.p2p.network.ConnectionListener;
+import haveno.network.p2p.peers.PeerManager;
+import haveno.network.p2p.storage.P2PDataStorage;
 
 import bisq.common.config.Config;
 import bisq.common.persistence.PersistenceManager;
