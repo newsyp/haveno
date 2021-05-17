@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.core.user.Preferences;
+import haveno.core.user.Preferences;
 
-import bisq.common.config.Config;
-import bisq.common.file.FileUtil;
-import bisq.common.file.ResourceNotFoundException;
-import bisq.common.util.Utilities;
+import haveno.common.config.Config;
+import haveno.common.file.FileUtil;
+import haveno.common.file.ResourceNotFoundException;
+import haveno.common.util.Utilities;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
