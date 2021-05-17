@@ -1,4 +1,4 @@
-package bisq.cli;
+package haveno.cli;
 
 import static java.lang.System.out;
 
