@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli;
+package haveno.cli;
 
-import bisq.proto.grpc.AddressBalanceInfo;
-import bisq.proto.grpc.BalancesInfo;
-import bisq.proto.grpc.BsqBalanceInfo;
-import bisq.proto.grpc.BtcBalanceInfo;
-import bisq.proto.grpc.OfferInfo;
-import bisq.proto.grpc.XmrBalanceInfo;
+import haveno.proto.grpc.AddressBalanceInfo;
+import haveno.proto.grpc.BalancesInfo;
+import haveno.proto.grpc.BsqBalanceInfo;
+import haveno.proto.grpc.BtcBalanceInfo;
+import havenp.proto.grpc.OfferInfo;
+import haveno.proto.grpc.XmrBalanceInfo;
 
 import protobuf.PaymentAccount;
 
@@ -35,10 +35,10 @@ import java.util.List;
 import java.util.TimeZone;
 import java.util.stream.Collectors;
 
-import static bisq.cli.ColumnHeaderConstants.*;
-import static bisq.cli.CurrencyFormat.*;
-import static bisq.cli.DirectionFormat.directionFormat;
-import static bisq.cli.DirectionFormat.getLongestDirectionColWidth;
+import static haveno.cli.ColumnHeaderConstants.*;
+import static haveno.cli.CurrencyFormat.*;
+import static haveno.cli.DirectionFormat.directionFormat;
+import static haveno.cli.DirectionFormat.getLongestDirectionColWidth;
 import static com.google.common.base.Strings.padEnd;
 import static com.google.common.base.Strings.padStart;
 import static java.lang.String.format;
