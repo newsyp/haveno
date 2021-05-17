@@ -1,6 +1,6 @@
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import com.google.common.annotations.VisibleForTesting;
 
@@ -59,8 +59,8 @@ public class BsqBalanceInfo implements Payload {
     ///////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
-    public bisq.proto.grpc.BsqBalanceInfo toProtoMessage() {
-        return bisq.proto.grpc.BsqBalanceInfo.newBuilder()
+    public haveno.proto.grpc.BsqBalanceInfo toProtoMessage() {
+        return haveno.proto.grpc.BsqBalanceInfo.newBuilder()
                 .setAvailableConfirmedBalance(availableConfirmedBalance)
                 .setUnverifiedBalance(unverifiedBalance)
                 .setUnconfirmedChangeBalance(unconfirmedChangeBalance)
