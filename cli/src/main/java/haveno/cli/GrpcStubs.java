@@ -1,5 +1,5 @@
 /*
- * This file is part of Bisq.
+ * This file is part of Haveno.
  *
  * Bisq is free software: you can redistribute it and/or modify it
  * under the terms of the GNU Affero General Public License as published by
@@ -15,17 +15,17 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli;
+package haveno.cli;
 
-import bisq.proto.grpc.DisputeAgentsGrpc;
-import bisq.proto.grpc.GetVersionGrpc;
-import bisq.proto.grpc.HelpGrpc;
-import bisq.proto.grpc.OffersGrpc;
-import bisq.proto.grpc.PaymentAccountsGrpc;
-import bisq.proto.grpc.PriceGrpc;
-import bisq.proto.grpc.ShutdownServerGrpc;
-import bisq.proto.grpc.TradesGrpc;
-import bisq.proto.grpc.WalletsGrpc;
+import haveno.proto.grpc.DisputeAgentsGrpc;
+import haveno.proto.grpc.GetVersionGrpc;
+import haveno.proto.grpc.HelpGrpc;
+import haveno.proto.grpc.OffersGrpc;
+import haveno.proto.grpc.PaymentAccountsGrpc;
+import haveno.proto.grpc.PriceGrpc;
+import haveno.proto.grpc.ShutdownServerGrpc;
+import haveno.proto.grpc.TradesGrpc;
+import haveno.proto.grpc.WalletsGrpc;
 
 import io.grpc.CallCredentials;
 import io.grpc.ManagedChannelBuilder;
