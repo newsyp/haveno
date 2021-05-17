@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.cli.opts;
+package haveno.cli.opts;
 
 import joptsimple.OptionException;
 import joptsimple.OptionParser;
@@ -27,7 +27,7 @@ import java.util.function.Function;
 
 import lombok.Getter;
 
-import static bisq.cli.opts.OptLabel.OPT_HELP;
+import static haveno.cli.opts.OptLabel.OPT_HELP;
 
 abstract class AbstractMethodOptionParser implements MethodOpts {
 
