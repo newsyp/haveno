@@ -15,39 +15,39 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api;
+package haveno.core.api;
 
-import bisq.core.api.model.AddressBalanceInfo;
-import bisq.core.api.model.BalancesInfo;
-import bisq.core.api.model.BsqBalanceInfo;
-import bisq.core.api.model.BtcBalanceInfo;
-import bisq.core.api.model.TxFeeRateInfo;
-import bisq.core.api.model.XmrBalanceInfo;
-import bisq.core.app.AppStartupState;
-import bisq.core.btc.Balances;
-import bisq.core.btc.exceptions.AddressEntryException;
-import bisq.core.btc.exceptions.BsqChangeBelowDustException;
-import bisq.core.btc.exceptions.InsufficientFundsException;
-import bisq.core.btc.exceptions.TransactionVerificationException;
-import bisq.core.btc.exceptions.WalletException;
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.model.BsqTransferModel;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.BsqTransferService;
-import bisq.core.btc.wallet.BsqWalletService;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.btc.wallet.TxBroadcaster;
-import bisq.core.btc.wallet.WalletsManager;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.user.Preferences;
-import bisq.core.util.FormattingUtils;
-import bisq.core.util.coin.BsqFormatter;
-import bisq.core.util.coin.CoinFormatter;
+import haveno.core.api.model.AddressBalanceInfo;
+import haveno.core.api.model.BalancesInfo;
+import haveno.core.api.model.BsqBalanceInfo;
+import haveno.core.api.model.BtcBalanceInfo;
+import haveno.core.api.model.TxFeeRateInfo;
+import haveno.core.api.model.XmrBalanceInfo;
+import haveno.core.app.AppStartupState;
+import haveno.core.btc.Balances;
+import haveno.core.btc.exceptions.AddressEntryException;
+import haveno.core.btc.exceptions.BsqChangeBelowDustException;
+import haveno.core.btc.exceptions.InsufficientFundsException;
+import haveno.core.btc.exceptions.TransactionVerificationException;
+import haveno.core.btc.exceptions.WalletException;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.model.BsqTransferModel;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.BsqTransferService;
+import haveno.core.btc.wallet.BsqWalletService;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.btc.wallet.TxBroadcaster;
+import haveno.core.btc.wallet.WalletsManager;
+import haveno.core.provider.fee.FeeService;
+import haveno.core.user.Preferences;
+import haveno.core.util.FormattingUtils;
+import haveno.core.util.coin.BsqFormatter;
+import haveno.core.util.coin.CoinFormatter;
 
-import bisq.common.Timer;
-import bisq.common.UserThread;
-import bisq.common.handlers.ResultHandler;
-import bisq.common.util.Utilities;
+import haveno.common.Timer;
+import haveno.common.UserThread;
+import haveno.common.handlers.ResultHandler;
+import haveno.common.util.Utilities;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.Coin;
@@ -85,8 +85,8 @@ import lombok.extern.slf4j.Slf4j;
 
 import javax.annotation.Nullable;
 
-import static bisq.core.btc.wallet.Restrictions.getMinNonDustOutput;
-import static bisq.core.util.ParsingUtils.parseToCoin;
+import static haveno.core.btc.wallet.Restrictions.getMinNonDustOutput;
+import static haveno.core.util.ParsingUtils.parseToCoin;
 import static java.lang.String.format;
 import static java.util.concurrent.TimeUnit.SECONDS;
 
