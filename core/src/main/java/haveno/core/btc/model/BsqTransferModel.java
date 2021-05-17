@@ -1,6 +1,6 @@
-package bisq.core.btc.model;
+package haveno.core.btc.model;
 
-import bisq.core.dao.state.model.blockchain.TxType;
+import haveno.core.dao.state.model.blockchain.TxType;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.LegacyAddress;
