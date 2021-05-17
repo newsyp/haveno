@@ -15,30 +15,30 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app.misc;
+package haveno.core.app.misc;
 
-import bisq.core.app.BisqExecutable;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.BsqWalletService;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.btc.wallet.XmrWalletService;
-import bisq.core.dao.DaoSetup;
-import bisq.core.dao.node.full.RpcService;
-import bisq.core.offer.OpenOfferManager;
-import bisq.core.support.dispute.arbitration.arbitrator.ArbitratorManager;
+import haveno.core.app.BisqExecutable;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.BsqWalletService;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.btc.wallet.XmrWalletService;
+import haveno.core.dao.DaoSetup;
+import haveno.core.dao.node.full.RpcService;
+import haveno.core.offer.OpenOfferManager;
+import haveno.core.support.dispute.arbitration.arbitrator.ArbitratorManager;
 
-import bisq.network.p2p.NodeAddress;
-import bisq.network.p2p.P2PService;
-import bisq.network.p2p.seed.SeedNodeRepository;
+import haveno.network.p2p.NodeAddress;
+import haveno.network.p2p.P2PService;
+import haveno.network.p2p.seed.SeedNodeRepository;
 
-import bisq.common.UserThread;
-import bisq.common.app.DevEnv;
-import bisq.common.config.Config;
-import bisq.common.file.JsonFileManager;
-import bisq.common.handlers.ResultHandler;
-import bisq.common.persistence.PersistenceManager;
-import bisq.common.setup.GracefulShutDownHandler;
-import bisq.common.util.Profiler;
+import haveno.common.UserThread;
+import haveno.common.app.DevEnv;
+import haveno.common.config.Config;
+import haveno.common.file.JsonFileManager;
+import haveno.common.handlers.ResultHandler;
+import haveno.common.persistence.PersistenceManager;
+import haveno.common.setup.GracefulShutDownHandler;
+import haveno.common.util.Profiler;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
