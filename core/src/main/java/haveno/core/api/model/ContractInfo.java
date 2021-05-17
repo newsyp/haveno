@@ -15,15 +15,15 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import java.util.function.Supplier;
 
 import lombok.Getter;
 
-import static bisq.core.api.model.PaymentAccountPayloadInfo.emptyPaymentAccountPayload;
+import static haveno.core.api.model.PaymentAccountPayloadInfo.emptyPaymentAccountPayload;
 
 /**
  * A lightweight Trade Contract constructed from a trade's json contract.
@@ -102,8 +102,8 @@ public class ContractInfo implements Payload {
     }
 
     @Override
-    public bisq.proto.grpc.ContractInfo toProtoMessage() {
-        return bisq.proto.grpc.ContractInfo.newBuilder()
+    public haveno.proto.grpc.ContractInfo toProtoMessage() {
+        return haveno.proto.grpc.ContractInfo.newBuilder()
                 .setBuyerNodeAddress(buyerNodeAddress)
                 .setSellerNodeAddress(sellerNodeAddress)
                 .setArbitratorNodeAddress(arbitratorNodeAddress)
