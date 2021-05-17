@@ -15,13 +15,13 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.core.payment.payload.CryptoCurrencyAccountPayload;
-import bisq.core.payment.payload.InstantCryptoCurrencyPayload;
-import bisq.core.payment.payload.PaymentAccountPayload;
+import haveno.core.payment.payload.CryptoCurrencyAccountPayload;
+import haveno.core.payment.payload.InstantCryptoCurrencyPayload;
+import haveno.core.payment.payload.PaymentAccountPayload;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import java.util.Optional;
 import java.util.function.Supplier;
@@ -71,8 +71,8 @@ public class PaymentAccountPayloadInfo implements Payload {
     }
 
     @Override
-    public bisq.proto.grpc.PaymentAccountPayloadInfo toProtoMessage() {
-        return bisq.proto.grpc.PaymentAccountPayloadInfo.newBuilder()
+    public haveno.proto.grpc.PaymentAccountPayloadInfo toProtoMessage() {
+        return haveno.proto.grpc.PaymentAccountPayloadInfo.newBuilder()
                 .setId(id)
                 .setPaymentMethodId(paymentMethodId)
                 .setAddress(address != null ? address : "")
