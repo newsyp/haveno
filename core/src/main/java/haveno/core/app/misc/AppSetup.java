@@ -15,10 +15,10 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app.misc;
+package haveno.core.app.misc;
 
-import bisq.common.app.Version;
-import bisq.common.config.Config;
+import haveno.common.app.Version;
+import haveno.common.config.Config;
 
 import javax.inject.Inject;
 
