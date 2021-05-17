@@ -15,22 +15,22 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.core.api.CoreContext;
-import bisq.core.btc.exceptions.InvalidHostException;
-import bisq.core.btc.exceptions.RejectedTxException;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.WalletsManager;
-import bisq.core.locale.Res;
-import bisq.core.offer.OpenOfferManager;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.trade.TradeManager;
-import bisq.core.user.Preferences;
-import bisq.core.util.FormattingUtils;
+import haveno.core.api.CoreContext;
+import haveno.core.btc.exceptions.InvalidHostException;
+import haveno.core.btc.exceptions.RejectedTxException;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.WalletsManager;
+import haveno.core.locale.Res;
+import haveno.core.offer.OpenOfferManager;
+import haveno.core.provider.fee.FeeService;
+import haveno.core.trade.TradeManager;
+import haveno.core.user.Preferences;
+import haveno.core.util.FormattingUtils;
 
-import bisq.common.UserThread;
-import bisq.common.config.Config;
+import haveno.common.UserThread;
+import haveno.common.config.Config;
 
 import org.bitcoinj.core.RejectMessage;
 import org.bitcoinj.core.VersionMessage;
