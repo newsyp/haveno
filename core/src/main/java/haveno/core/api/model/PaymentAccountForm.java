@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.core.payment.PaymentAccount;
-import bisq.core.payment.PaymentAccountFactory;
-import bisq.core.payment.payload.PaymentMethod;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.payment.PaymentAccountFactory;
+import haveno.core.payment.payload.PaymentMethod;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -47,7 +47,7 @@ import java.lang.reflect.Type;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static bisq.core.payment.payload.PaymentMethod.getPaymentMethodById;
+import static haveno.core.payment.payload.PaymentMethod.getPaymentMethodById;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static java.lang.String.format;
 import static java.lang.System.getProperty;
