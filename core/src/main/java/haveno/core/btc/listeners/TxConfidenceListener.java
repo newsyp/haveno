@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.listeners;
+package haveno.core.btc.listeners;
 
 import org.bitcoinj.core.TransactionConfidence;
 
