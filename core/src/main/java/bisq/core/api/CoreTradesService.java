@@ -15,24 +15,24 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api;
+package haveno.core.api;
 
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.offer.Offer;
-import bisq.core.offer.OfferUtil;
-import bisq.core.offer.takeoffer.TakeOfferModel;
-import bisq.core.trade.Tradable;
-import bisq.core.trade.Trade;
-import bisq.core.trade.TradeManager;
-import bisq.core.trade.TradeUtil;
-import bisq.core.trade.closed.ClosedTradableManager;
-import bisq.core.trade.protocol.BuyerProtocol;
-import bisq.core.trade.protocol.SellerProtocol;
-import bisq.core.user.User;
-import bisq.core.util.validation.BtcAddressValidator;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.offer.Offer;
+import haveno.core.offer.OfferUtil;
+import haveno.core.offer.takeoffer.TakeOfferModel;
+import haveno.core.trade.Tradable;
+import haveno.core.trade.Trade;
+import haveno.core.trade.TradeManager;
+import haveno.core.trade.TradeUtil;
+import haveno.core.trade.closed.ClosedTradableManager;
+import haveno.core.trade.protocol.BuyerProtocol;
+import haveno.core.trade.protocol.SellerProtocol;
+import haveno.core.user.User;
+import haveno.core.util.validation.BtcAddressValidator;
 
-import bisq.common.handlers.ErrorMessageHandler;
+import haveno.common.handlers.ErrorMessageHandler;
 
 import org.bitcoinj.core.Coin;
 
@@ -44,7 +44,7 @@ import java.util.function.Consumer;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static bisq.core.btc.model.AddressEntry.Context.TRADE_PAYOUT;
+import static haveno.core.btc.model.AddressEntry.Context.TRADE_PAYOUT;
 import static java.lang.String.format;
 
 @Singleton
