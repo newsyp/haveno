@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.common.UserThread;
-import bisq.common.app.AppModule;
-import bisq.common.app.Version;
+import haveno.common.UserThread;
+import haveno.common.app.AppModule;
+import haveno.common.app.Version;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
