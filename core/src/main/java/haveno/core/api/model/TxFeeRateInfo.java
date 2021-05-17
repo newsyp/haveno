@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -49,8 +49,8 @@ public class TxFeeRateInfo implements Payload {
     //////////////////////////////////////////////////////////////////////////////////////
 
     @Override
-    public bisq.proto.grpc.TxFeeRateInfo toProtoMessage() {
-        return bisq.proto.grpc.TxFeeRateInfo.newBuilder()
+    public haveno.proto.grpc.TxFeeRateInfo toProtoMessage() {
+        return haveno.proto.grpc.TxFeeRateInfo.newBuilder()
                 .setUseCustomTxFeeRate(useCustomTxFeeRate)
                 .setCustomTxFeeRate(customTxFeeRate)
                 .setMinFeeServiceRate(minFeeServiceRate)
