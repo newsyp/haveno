@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.app;
+package haveno.core.app;
 
-import bisq.common.config.Config;
-import bisq.common.file.FileUtil;
-import bisq.common.handlers.ErrorMessageHandler;
+import haveno.common.config.Config;
+import haveno.common.file.FileUtil;
+import haveno.common.handlers.ErrorMessageHandler;
 
 import javax.inject.Inject;
 import javax.inject.Named;
