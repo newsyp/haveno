@@ -1,6 +1,6 @@
-package bisq.core.api.model;
+package haveno.core.api.model;
 
-import bisq.common.Payload;
+import haveno.common.Payload;
 
 import com.google.common.annotations.VisibleForTesting;
 
@@ -53,8 +53,8 @@ public class XmrBalanceInfo implements Payload {
     ///////////////////////////////////////////////////////////////////////////////////////////
 
     @Override
-    public bisq.proto.grpc.XmrBalanceInfo toProtoMessage() {
-        return bisq.proto.grpc.XmrBalanceInfo.newBuilder()
+    public haveno.proto.grpc.XmrBalanceInfo toProtoMessage() {
+        return haveno.proto.grpc.XmrBalanceInfo.newBuilder()
                 .setBalance(balance)
                 .setAvailableBalance(availableBalance)
                 .setLockedBalance(lockedBalance)
