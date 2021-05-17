@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.exceptions;
+package haveno.core.btc.exceptions;
 
 public class InvalidHostException extends IllegalArgumentException {
 
