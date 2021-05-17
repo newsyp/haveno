@@ -15,17 +15,17 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.api;
+package haveno.core.api;
 
-import bisq.core.account.witness.AccountAgeWitnessService;
-import bisq.core.api.model.PaymentAccountForm;
-import bisq.core.locale.CryptoCurrency;
-import bisq.core.payment.CryptoCurrencyAccount;
-import bisq.core.payment.InstantCryptoCurrencyAccount;
-import bisq.core.payment.PaymentAccount;
-import bisq.core.payment.PaymentAccountFactory;
-import bisq.core.payment.payload.PaymentMethod;
-import bisq.core.user.User;
+import haveno.core.account.witness.AccountAgeWitnessService;
+import haveno.core.api.model.PaymentAccountForm;
+import haveno.core.locale.CryptoCurrency;
+import haveno.core.payment.CryptoCurrencyAccount;
+import haveno.core.payment.InstantCryptoCurrencyAccount;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.payment.PaymentAccountFactory;
+import haveno.core.payment.payload.PaymentMethod;
+import haveno.core.user.User;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
 
 import lombok.extern.slf4j.Slf4j;
 
-import static bisq.core.locale.CurrencyUtil.getCryptoCurrency;
+import static haveno.core.locale.CurrencyUtil.getCryptoCurrency;
 import static java.lang.String.format;
 
 @Singleton
