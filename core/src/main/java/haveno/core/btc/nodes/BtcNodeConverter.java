@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.nodes;
+package haveno.core.btc.nodes;
 
-import bisq.core.btc.nodes.BtcNodes.BtcNode;
+import haveno.core.btc.nodes.BtcNodes.BtcNode;
 
-import bisq.network.DnsLookupException;
-import bisq.network.DnsLookupTor;
+import haveno.network.DnsLookupException;
+import haveno.network.DnsLookupTor;
 
 import org.bitcoinj.core.PeerAddress;
 import org.bitcoinj.net.OnionCatConverter;
