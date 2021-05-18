@@ -15,19 +15,19 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc;
+package haveno.core.btc;
 
-import bisq.core.btc.wallet.XmrWalletService;
-import bisq.core.offer.OpenOffer;
-import bisq.core.offer.OpenOfferManager;
-import bisq.core.support.dispute.Dispute;
-import bisq.core.support.dispute.refund.RefundManager;
-import bisq.core.trade.Trade;
-import bisq.core.trade.TradeManager;
-import bisq.core.trade.closed.ClosedTradableManager;
-import bisq.core.trade.failed.FailedTradesManager;
+import haveno.core.btc.wallet.XmrWalletService;
+import haveno.core.offer.OpenOffer;
+import haveno.core.offer.OpenOfferManager;
+import haveno.core.support.dispute.Dispute;
+import haveno.core.support.dispute.refund.RefundManager;
+import haveno.core.trade.Trade;
+import haveno.core.trade.TradeManager;
+import haveno.core.trade.closed.ClosedTradableManager;
+import haveno.core.trade.failed.FailedTradesManager;
 
-import bisq.common.UserThread;
+import haveno.common.UserThread;
 
 import org.bitcoinj.core.Coin;
 
