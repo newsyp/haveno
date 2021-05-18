@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.setup;
+package haveno.core.btc.setup;
 
-import bisq.core.btc.nodes.LocalBitcoinNode;
-import bisq.core.btc.nodes.ProxySocketFactory;
-import bisq.core.btc.wallet.BisqRiskAnalysis;
+import haveno.core.btc.nodes.LocalBitcoinNode;
+import haveno.core.btc.nodes.ProxySocketFactory;
+import haveno.core.btc.wallet.BisqRiskAnalysis;
 
-import bisq.common.config.Config;
-import bisq.common.file.FileUtil;
+import haveno.common.config.Config;
+import haveno.common.file.FileUtil;
 
 import org.bitcoinj.core.BlockChain;
 import org.bitcoinj.core.CheckpointManager;
