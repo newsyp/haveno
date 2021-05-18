@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.setup;
+package haveno.core.btc.setup;
 
-import bisq.common.config.Config;
+import haveno.common.config.Config;
 
 public enum RegTestHost {
 
