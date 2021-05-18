@@ -15,31 +15,31 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.setup;
+package haveno.core.btc.setup;
 
-import bisq.core.btc.exceptions.InvalidHostException;
-import bisq.core.btc.exceptions.RejectedTxException;
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.model.AddressEntryList;
-import bisq.core.btc.model.XmrAddressEntryList;
-import bisq.core.btc.nodes.BtcNetworkConfig;
-import bisq.core.btc.nodes.BtcNodes;
-import bisq.core.btc.nodes.BtcNodes.BtcNode;
-import bisq.core.btc.nodes.BtcNodesRepository;
-import bisq.core.btc.nodes.BtcNodesSetupPreferences;
-import bisq.core.btc.nodes.LocalBitcoinNode;
-import bisq.core.user.Preferences;
+import haveno.core.btc.exceptions.InvalidHostException;
+import haveno.core.btc.exceptions.RejectedTxException;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.model.AddressEntryList;
+import haveno.core.btc.model.XmrAddressEntryList;
+import haveno.core.btc.nodes.BtcNetworkConfig;
+import haveno.core.btc.nodes.BtcNodes;
+import haveno.core.btc.nodes.BtcNodes.BtcNode;
+import haveno.core.btc.nodes.BtcNodesRepository;
+import haveno.core.btc.nodes.BtcNodesSetupPreferences;
+import haveno.core.btc.nodes.LocalBitcoinNode;
+import haveno.core.user.Preferences;
 
-import bisq.network.Socks5MultiDiscovery;
-import bisq.network.Socks5ProxyProvider;
+import haveno.network.Socks5MultiDiscovery;
+import haveno.network.Socks5ProxyProvider;
 
-import bisq.common.Timer;
-import bisq.common.UserThread;
-import bisq.common.app.Version;
-import bisq.common.config.Config;
-import bisq.common.file.FileUtil;
-import bisq.common.handlers.ExceptionHandler;
-import bisq.common.handlers.ResultHandler;
+import haveno.common.Timer;
+import haveno.common.UserThread;
+import haveno.common.app.Version;
+import haveno.common.config.Config;
+import haveno.common.file.FileUtil;
+import haveno.common.handlers.ExceptionHandler;
+import haveno.common.handlers.ResultHandler;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.BlockChain;
