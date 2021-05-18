@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet.http;
+package haveno.core.btc.wallet.http;
 
-import bisq.core.trade.txproof.AssetTxProofHttpClient;
+import haveno.core.trade.txproof.AssetTxProofHttpClient;
 
-import bisq.network.Socks5ProxyProvider;
-import bisq.network.http.HttpClientImpl;
+import haveno.network.Socks5ProxyProvider;
+import haveno.network.http.HttpClientImpl;
 
 import lombok.extern.slf4j.Slf4j;
 
