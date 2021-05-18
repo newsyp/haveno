@@ -15,13 +15,13 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.nodes;
+package haveno.core.btc.nodes;
 
-import bisq.core.btc.setup.WalletConfig;
+import haveno.core.btc.setup.WalletConfig;
 
-import bisq.network.Socks5MultiDiscovery;
+import haveno.network.Socks5MultiDiscovery;
 
-import bisq.common.config.Config;
+import haveno.common.config.Config;
 
 import org.bitcoinj.core.NetworkParameters;
 import org.bitcoinj.core.PeerAddress;
