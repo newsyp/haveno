@@ -15,26 +15,26 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc;
+package haveno.core.btc;
 
-import bisq.core.btc.model.AddressEntryList;
-import bisq.core.btc.model.XmrAddressEntryList;
-import bisq.core.btc.nodes.BtcNodes;
-import bisq.core.btc.setup.RegTestHost;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.BsqCoinSelector;
-import bisq.core.btc.wallet.BsqWalletService;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.btc.wallet.NonBsqCoinSelector;
-import bisq.core.btc.wallet.TradeWalletService;
-import bisq.core.btc.wallet.XmrWalletService;
-import bisq.core.provider.ProvidersRepository;
-import bisq.core.provider.fee.FeeProvider;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.provider.price.PriceFeedService;
+import haveno.core.btc.model.AddressEntryList;
+import haveno.core.btc.model.XmrAddressEntryList;
+import haveno.core.btc.nodes.BtcNodes;
+import haveno.core.btc.setup.RegTestHost;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.BsqCoinSelector;
+import haveno.core.btc.wallet.BsqWalletService;
+import haveno.core.btc.wallet.BtcWalletService;
+import havenocore.btc.wallet.NonBsqCoinSelector;
+import haveno.core.btc.wallet.TradeWalletService;
+import haveno.core.btc.wallet.XmrWalletService;
+import haveno.core.provider.ProvidersRepository;
+import haveno.core.provider.fee.FeeProvider;
+import haveno.core.provider.fee.FeeService;
+import haveno.core.provider.price.PriceFeedService;
 
-import bisq.common.app.AppModule;
-import bisq.common.config.Config;
+import haveno.common.app.AppModule;
+import haveno.common.config.Config;
 
 import com.google.inject.Singleton;
 import com.google.inject.TypeLiteral;
@@ -44,8 +44,8 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-import static bisq.common.config.Config.PROVIDERS;
-import static bisq.common.config.Config.WALLET_DIR;
+import static haveno.common.config.Config.PROVIDERS;
+import static haveno.common.config.Config.WALLET_DIR;
 import static com.google.inject.name.Names.named;
 
 public class BitcoinModule extends AppModule {
