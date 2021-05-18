@@ -1,9 +1,9 @@
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.exceptions.BsqChangeBelowDustException;
-import bisq.core.btc.exceptions.TransactionVerificationException;
-import bisq.core.btc.exceptions.WalletException;
-import bisq.core.btc.model.BsqTransferModel;
+import haveno.core.btc.exceptions.BsqChangeBelowDustException;
+import haveno.core.btc.exceptions.TransactionVerificationException;
+import haveno.core.btc.exceptions.WalletException;
+import haveno.core.btc.model.BsqTransferModel;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.InsufficientMoneyException;
