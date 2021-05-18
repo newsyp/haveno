@@ -15,9 +15,9 @@
  * along with bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.nodes;
+package haveno.core.btc.nodes;
 
-import bisq.common.config.Config;
+import haveno.common.config.Config;
 
 import java.util.ArrayList;
 import java.util.Arrays;
