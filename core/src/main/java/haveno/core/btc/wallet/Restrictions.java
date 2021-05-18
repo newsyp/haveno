@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.common.config.Config;
+import haveno.common.config.Config;
 
 import org.bitcoinj.core.Coin;
 
