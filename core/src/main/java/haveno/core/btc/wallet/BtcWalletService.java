@@ -15,21 +15,21 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.exceptions.AddressEntryException;
-import bisq.core.btc.exceptions.InsufficientFundsException;
-import bisq.core.btc.exceptions.TransactionVerificationException;
-import bisq.core.btc.exceptions.WalletException;
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.model.AddressEntryList;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.btc.wallet.http.MemPoolSpaceTxBroadcaster;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.user.Preferences;
+import haveno.core.btc.exceptions.AddressEntryException;
+import haveno.core.btc.exceptions.InsufficientFundsException;
+import haveno.core.btc.exceptions.TransactionVerificationException;
+import haveno.core.btc.exceptions.WalletException;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.model.AddressEntryList;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.btc.wallet.http.MemPoolSpaceTxBroadcaster;
+import haveno.core.provider.fee.FeeService;
+import haveno.core.user.Preferences;
 
-import bisq.common.handlers.ErrorMessageHandler;
-import bisq.common.util.Tuple2;
+import haveno.common.handlers.ErrorMessageHandler;
+import haveno.common.util.Tuple2;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;
