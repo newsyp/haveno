@@ -15,23 +15,23 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.exceptions.SigningException;
-import bisq.core.btc.exceptions.TransactionVerificationException;
-import bisq.core.btc.exceptions.WalletException;
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.model.InputsAndChangeOutput;
-import bisq.core.btc.model.PreparedDepositTxAndMakerInputs;
-import bisq.core.btc.model.RawTransactionInput;
-import bisq.core.btc.setup.WalletConfig;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.locale.Res;
-import bisq.core.user.Preferences;
-import bisq.core.util.ParsingUtils;
+import haveno.core.btc.exceptions.SigningException;
+import haveno.core.btc.exceptions.TransactionVerificationException;
+import haveno.core.btc.exceptions.WalletException;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.model.InputsAndChangeOutput;
+import haveno.core.btc.model.PreparedDepositTxAndMakerInputs;
+import haveno.core.btc.model.RawTransactionInput;
+import haveno,core.btc.setup.WalletConfig;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.locale.Res;
+import haveno.core.user.Preferences;
+import haveno.core.util.ParsingUtils;
 
-import bisq.common.config.Config;
-import bisq.common.util.Tuple2;
+import haveno.common.config.Config;
+import haveno.common.util.Tuple2;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;
