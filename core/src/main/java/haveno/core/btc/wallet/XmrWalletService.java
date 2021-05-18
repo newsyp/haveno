@@ -1,11 +1,11 @@
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.exceptions.AddressEntryException;
-import bisq.core.btc.listeners.XmrBalanceListener;
-import bisq.core.btc.model.XmrAddressEntry;
-import bisq.core.btc.model.XmrAddressEntryList;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.util.ParsingUtils;
+import haveno.core.btc.exceptions.AddressEntryException;
+import haveno.core.btc.listeners.XmrBalanceListener;
+import haveno.core.btc.model.XmrAddressEntry;
+import haveno.core.btc.model.XmrAddressEntryList;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.util.ParsingUtils;
 
 import org.bitcoinj.core.AddressFormatException;
 import org.bitcoinj.core.Coin;
