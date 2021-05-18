@@ -15,15 +15,15 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.crypto.ScryptUtil;
-import bisq.core.dao.state.model.blockchain.TxType;
-import bisq.core.locale.Res;
+import haveno.core.btc.setup.WalletsSetup;
+import haveno.core.crypto.ScryptUtil;
+import haveno.core.dao.state.model.blockchain.TxType;
+import haveno.core.locale.Res;
 
-import bisq.common.handlers.ExceptionHandler;
-import bisq.common.handlers.ResultHandler;
+import haveno.common.handlers.ExceptionHandler;
+import haveno.common.handlers.ResultHandler;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Transaction;
