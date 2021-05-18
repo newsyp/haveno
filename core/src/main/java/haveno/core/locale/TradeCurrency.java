@@ -15,10 +15,10 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.locale;
+package haveno.core.locale;
 
-import bisq.common.proto.ProtobufferRuntimeException;
-import bisq.common.proto.persistable.PersistablePayload;
+import haveno.common.proto.ProtobufferRuntimeException;
+import haveno.common.proto.persistable.PersistablePayload;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
