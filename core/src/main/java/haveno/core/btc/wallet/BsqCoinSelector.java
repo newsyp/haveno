@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.dao.state.DaoStateService;
-import bisq.core.dao.state.model.blockchain.TxOutputKey;
-import bisq.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
+import haveno.core.dao.state.DaoStateService;
+import haveno.core.dao.state.model.blockchain.TxOutputKey;
+import haveno.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
 
 import org.bitcoinj.core.Transaction;
 import org.bitcoinj.core.TransactionOutput;
@@ -33,7 +33,7 @@ import lombok.extern.slf4j.Slf4j;
  * We lookup for spendable outputs which matches our address of our address.
  */
 @Slf4j
-public class BsqCoinSelector extends BisqDefaultCoinSelector {
+public class BsqCoinSelector extends HavenoDefaultCoinSelector {
     private final DaoStateService daoStateService;
     private final UnconfirmedBsqChangeOutputListService unconfirmedBsqChangeOutputListService;
 
