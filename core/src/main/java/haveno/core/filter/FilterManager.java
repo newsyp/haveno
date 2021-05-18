@@ -15,28 +15,28 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.filter;
+package haveno.core.filter;
 
-import bisq.core.btc.nodes.BtcNodes;
-import bisq.core.locale.Res;
-import bisq.core.payment.payload.PaymentAccountPayload;
-import bisq.core.payment.payload.PaymentMethod;
-import bisq.core.provider.ProvidersRepository;
-import bisq.core.user.Preferences;
-import bisq.core.user.User;
+import haveno.core.btc.nodes.BtcNodes;
+import haveno.core.locale.Res;
+import haveno.core.payment.payload.PaymentAccountPayload;
+import haveno.core.payment.payload.PaymentMethod;
+import haveno.core.provider.ProvidersRepository;
+import haveno.core.user.Preferences;
+import haveno.core.user.User;
 
-import bisq.network.p2p.NodeAddress;
-import bisq.network.p2p.P2PService;
-import bisq.network.p2p.P2PServiceListener;
-import bisq.network.p2p.network.NetworkFilter;
-import bisq.network.p2p.storage.HashMapChangedListener;
-import bisq.network.p2p.storage.payload.ProtectedStorageEntry;
+import haveno.network.p2p.NodeAddress;
+import haveno.network.p2p.P2PService;
+import haveno.network.p2p.P2PServiceListener;
+import haveno.network.p2p.network.NetworkFilter;
+import haveno.network.p2p.storage.HashMapChangedListener;
+import haveno.network.p2p.storage.payload.ProtectedStorageEntry;
 
-import bisq.common.app.DevEnv;
-import bisq.common.app.Version;
-import bisq.common.config.Config;
-import bisq.common.config.ConfigFileEditor;
-import bisq.common.crypto.KeyRing;
+import haveno.common.app.DevEnv;
+import haveno.common.app.Version;
+import haveno.common.config.Config;
+import haveno.common.config.ConfigFileEditor;
+import haveno.common.crypto.KeyRing;
 
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.Sha256Hash;
