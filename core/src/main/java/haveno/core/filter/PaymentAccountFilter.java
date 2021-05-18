@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.filter;
+package haveno.core.filter;
 
-import bisq.common.proto.network.NetworkPayload;
+import haveno.common.proto.network.NetworkPayload;
 
 import lombok.Value;
 import lombok.extern.slf4j.Slf4j;
