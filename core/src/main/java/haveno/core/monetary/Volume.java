@@ -15,10 +15,10 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.monetary;
+package haveno.core.monetary;
 
-import bisq.core.locale.CurrencyUtil;
-import bisq.core.util.ParsingUtils;
+import haveno.core.locale.CurrencyUtil;
+import haveno.core.util.ParsingUtils;
 
 import org.bitcoinj.core.Monetary;
 import org.bitcoinj.utils.Fiat;
