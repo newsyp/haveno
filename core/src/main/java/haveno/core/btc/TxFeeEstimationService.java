@@ -15,13 +15,13 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc;
+package haveno.core.btc;
 
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.user.Preferences;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.provider.fee.FeeService;
+import haveno.core.user.Preferences;
 
-import bisq.common.util.Tuple2;
+import haveno.common.util.Tuple2;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.InsufficientMoneyException;
