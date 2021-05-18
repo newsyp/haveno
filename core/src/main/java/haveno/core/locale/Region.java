@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.locale;
+package haveno.core.locale;
 
-import bisq.common.proto.persistable.PersistablePayload;
+import haveno.common.proto.persistable.PersistablePayload;
 
 import com.google.protobuf.Message;
 
