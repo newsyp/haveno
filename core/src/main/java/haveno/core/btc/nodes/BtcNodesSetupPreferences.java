@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.nodes;
+package haveno.core.btc.nodes;
 
-import bisq.core.user.Preferences;
+import haveno.core.user.Preferences;
 
-import bisq.common.config.Config;
-import bisq.common.util.Utilities;
+import haveno.common.config.Config;
+import haveno.common.util.Utilities;
 
 import java.util.Collections;
 import java.util.List;
