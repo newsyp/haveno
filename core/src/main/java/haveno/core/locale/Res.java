@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.locale;
+package haveno.core.locale;
 
-import bisq.common.UserThread;
-import bisq.common.app.DevEnv;
-import bisq.common.config.BaseCurrencyNetwork;
-import bisq.common.config.Config;
+import haveno.common.UserThread;
+import haveno.common.app.DevEnv;
+import haveno.common.config.BaseCurrencyNetwork;
+import haveno.common.config.Config;
 
 import org.apache.commons.lang3.StringUtils;
 
