@@ -15,20 +15,21 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.locale;
+package haveno.core.locale;
 
 import bisq.core.dao.governance.asset.AssetService;
-import bisq.core.filter.FilterManager;
 
-import bisq.asset.Asset;
-import bisq.asset.AssetRegistry;
-import bisq.asset.Coin;
-import bisq.asset.Token;
-import bisq.asset.coins.BSQ;
+import haveno.core.filter.FilterManager;
 
-import bisq.common.app.DevEnv;
-import bisq.common.config.BaseCurrencyNetwork;
-import bisq.common.config.Config;
+import haveno.asset.Asset;
+import haveno.asset.AssetRegistry;
+import haveno.asset.Coin;
+import haveno.asset.Token;
+import haveno.asset.coins.BSQ;
+
+import haveno.common.app.DevEnv;
+import haveno.common.config.BaseCurrencyNetwork;
+import haveno.common.config.Config;
 
 import com.google.common.base.Suppliers;
 
