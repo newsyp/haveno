@@ -15,11 +15,11 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.dao.state.DaoStateService;
-import bisq.core.dao.state.model.blockchain.TxOutputKey;
-import bisq.core.user.Preferences;
+import haveno.core.dao.state.DaoStateService;
+import haveno.core.dao.state.model.blockchain.TxOutputKey;
+import haveno.core.user.Preferences;
 
 import org.bitcoinj.core.Transaction;
 import org.bitcoinj.core.TransactionConfidence;
