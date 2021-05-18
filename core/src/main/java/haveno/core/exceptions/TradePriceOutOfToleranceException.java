@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.exceptions;
+package haveno.core.exceptions;
 
 public class TradePriceOutOfToleranceException extends Exception {
     public TradePriceOutOfToleranceException(String message) {
