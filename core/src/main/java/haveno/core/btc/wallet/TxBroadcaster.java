@@ -15,14 +15,14 @@
  * along with bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.exceptions.TxBroadcastException;
-import bisq.core.btc.exceptions.TxBroadcastTimeoutException;
-import bisq.core.btc.wallet.http.MemPoolSpaceTxBroadcaster;
+import haveno.core.btc.exceptions.TxBroadcastException;
+import haveno.core.btc.exceptions.TxBroadcastTimeoutException;
+import haveno.core.btc.wallet.http.MemPoolSpaceTxBroadcaster;
 
-import bisq.common.Timer;
-import bisq.common.UserThread;
+import haveno.common.Timer;
+import haveno.common.UserThread;
 
 import org.bitcoinj.core.PeerGroup;
 import org.bitcoinj.core.Transaction;
