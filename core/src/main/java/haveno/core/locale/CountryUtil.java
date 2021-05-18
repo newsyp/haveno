@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.locale;
+package haveno.core.locale;
 
 import com.google.common.collect.Collections2;
 import com.google.common.collect.Lists;
