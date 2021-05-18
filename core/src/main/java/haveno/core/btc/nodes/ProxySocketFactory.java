@@ -33,7 +33,7 @@
  * PircBotX. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.nodes;
+package haveno.core.btc.nodes;
 
 import javax.net.SocketFactory;
 
