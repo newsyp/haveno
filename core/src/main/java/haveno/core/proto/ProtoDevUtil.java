@@ -15,15 +15,15 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.proto;
+package haveno.core.proto;
 
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.support.dispute.DisputeResult;
-import bisq.core.offer.AvailabilityResult;
-import bisq.core.offer.Offer;
-import bisq.core.offer.OfferPayload;
-import bisq.core.offer.OpenOffer;
-import bisq.core.trade.Trade;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.support.dispute.DisputeResult;
+import haveno.core.offer.AvailabilityResult;
+import haveno.core.offer.Offer;
+import haveno.core.offer.OfferPayload;
+import haveno.core.offer.OpenOffer;
+import haveno.core.trade.Trade;
 
 import lombok.extern.slf4j.Slf4j;
 
