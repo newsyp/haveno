@@ -15,16 +15,16 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.filter;
+package haveno.core.filter;
 
-import bisq.network.p2p.storage.payload.ExpirablePayload;
-import bisq.network.p2p.storage.payload.ProtectedStoragePayload;
+import haveno.network.p2p.storage.payload.ExpirablePayload;
+import haveno.network.p2p.storage.payload.ProtectedStoragePayload;
 
-import bisq.common.crypto.Sig;
-import bisq.common.proto.ProtoUtil;
-import bisq.common.util.CollectionUtils;
-import bisq.common.util.ExtraDataMapValidator;
-import bisq.common.util.Utilities;
+import haveno.common.crypto.Sig;
+import haveno.common.proto.ProtoUtil;
+import haveno.common.util.CollectionUtils;
+import haveno.common.util.ExtraDataMapValidator;
+import haveno.common.util.Utilities;
 
 import com.google.protobuf.ByteString;
 
