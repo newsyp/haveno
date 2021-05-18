@@ -15,17 +15,17 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet.http;
+package haveno.core.btc.wallet.http;
 
-import bisq.core.btc.nodes.LocalBitcoinNode;
-import bisq.core.user.Preferences;
+import haveno.core.btc.nodes.LocalBitcoinNode;
+import haveno.core.user.Preferences;
 
-import bisq.network.Socks5ProxyProvider;
-import bisq.network.http.HttpException;
+import haveno.network.Socks5ProxyProvider;
+import haveno.network.http.HttpException;
 
-import bisq.common.app.Version;
-import bisq.common.config.Config;
-import bisq.common.util.Utilities;
+import haveno.common.app.Version;
+import haveno.common.config.Config;
+import haveno.common.util.Utilities;
 
 import org.bitcoinj.core.Transaction;
 import org.bitcoinj.core.Utils;
