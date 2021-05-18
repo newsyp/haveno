@@ -15,27 +15,29 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
-import bisq.core.btc.exceptions.BsqChangeBelowDustException;
-import bisq.core.btc.exceptions.InsufficientBsqException;
-import bisq.core.btc.exceptions.TransactionVerificationException;
-import bisq.core.btc.exceptions.WalletException;
-import bisq.core.btc.listeners.BsqBalanceListener;
-import bisq.core.btc.setup.WalletsSetup;
-import bisq.core.dao.DaoKillSwitch;
-import bisq.core.dao.state.DaoStateListener;
-import bisq.core.dao.state.DaoStateService;
-import bisq.core.dao.state.model.blockchain.Block;
-import bisq.core.dao.state.model.blockchain.Tx;
-import bisq.core.dao.state.model.blockchain.TxOutput;
-import bisq.core.dao.state.model.blockchain.TxOutputKey;
-import bisq.core.dao.state.model.blockchain.TxType;
-import bisq.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.user.Preferences;
+import haveno.core.btc.exceptions.BsqChangeBelowDustException;
+import haveno.core.btc.exceptions.InsufficientBsqException;
+import haveno.core.btc.exceptions.TransactionVerificationException;
+import haveno.core.btc.exceptions.WalletException;
+import haveno.core.btc.listeners.BsqBalanceListener;
+import haveno.core.btc.setup.WalletsSetup;
 
-import bisq.common.UserThread;
+import haveno.core.dao.DaoKillSwitch;
+import haveno.core.dao.state.DaoStateListener;
+import haveno.core.dao.state.DaoStateService;
+import haveno.core.dao.state.model.blockchain.Block;
+import haveno.core.dao.state.model.blockchain.Tx;
+import haveno.core.dao.state.model.blockchain.TxOutput;
+import haveno.core.dao.state.model.blockchain.TxOutputKey;
+import haveno.core.dao.state.model.blockchain.TxType;
+import haveno.core.dao.state.unconfirmed.UnconfirmedBsqChangeOutputListService;
+
+import haveno.core.provider.fee.FeeService;
+import haveno.core.user.Preferences;
+
+import haveno.common.UserThread;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;
