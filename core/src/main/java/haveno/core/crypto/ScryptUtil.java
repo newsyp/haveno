@@ -15,10 +15,10 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.crypto;
+package haveno.core.crypto;
 
-import bisq.common.UserThread;
-import bisq.common.util.Utilities;
+import haveno.common.UserThread;
+import haveno.common.util.Utilities;
 
 import com.google.protobuf.ByteString;
 
