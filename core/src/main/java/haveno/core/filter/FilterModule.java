@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.filter;
+package haveno.core.filter;
 
-import bisq.common.app.AppModule;
-import bisq.common.config.Config;
+import haveno.common.app.AppModule;
+import haveno.common.config.Config;
 
 import com.google.inject.Singleton;
 
-import static bisq.common.config.Config.IGNORE_DEV_MSG;
+import static haveno.common.config.Config.IGNORE_DEV_MSG;
 import static com.google.inject.name.Names.named;
 
 public class FilterModule extends AppModule {
