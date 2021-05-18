@@ -1,7 +1,7 @@
-package bisq.core.btc.nodes;
+package haveno.core.btc.nodes;
 
-import bisq.common.config.BaseCurrencyNetwork;
-import bisq.common.config.Config;
+import haveno.common.config.BaseCurrencyNetwork;
+import haveno.common.config.Config;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
