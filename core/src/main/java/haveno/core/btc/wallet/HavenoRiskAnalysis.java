@@ -32,7 +32,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.btc.wallet;
+package haveno.core.btc.wallet;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.ECKey;
@@ -72,7 +72,7 @@ import static com.google.common.base.Preconditions.checkState;
  * whether a tx/dependency violates the dust rules. Outside of specialised protocols you should not encounter non-final
  * transactions.</p>
  */
-public class BisqRiskAnalysis implements RiskAnalysis {
+public class HavenoRiskAnalysis implements RiskAnalysis {
     private static final Logger log = LoggerFactory.getLogger(BisqRiskAnalysis.class);
 
     /**
@@ -289,8 +289,8 @@ public class BisqRiskAnalysis implements RiskAnalysis {
 
     public static class Analyzer implements RiskAnalysis.Analyzer {
         @Override
-        public BisqRiskAnalysis create(Wallet wallet, Transaction tx, List<Transaction> dependencies) {
-            return new BisqRiskAnalysis(wallet, tx, dependencies);
+        public HavenoRiskAnalysis create(Wallet wallet, Transaction tx, List<Transaction> dependencies) {
+            return new HavenoRiskAnalysis(wallet, tx, dependencies);
         }
     }
 
