@@ -15,13 +15,13 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.messages;
+package haveno.core.offer.messages;
 
-import bisq.network.p2p.SupportedCapabilitiesMessage;
+import haveno.network.p2p.SupportedCapabilitiesMessage;
 
-import bisq.common.app.Capabilities;
-import bisq.common.app.Version;
-import bisq.common.crypto.PubKeyRing;
+import haveno.common.app.Capabilities;
+import haveno.common.app.Version;
+import haveno.common.crypto.PubKeyRing;
 
 import java.util.Optional;
 import java.util.UUID;
