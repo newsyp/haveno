@@ -15,22 +15,22 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.takeoffer;
+package haveno.core.offer.takeoffer;
 
-import bisq.core.account.witness.AccountAgeWitnessService;
-import bisq.core.btc.model.AddressEntry;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.locale.CurrencyUtil;
-import bisq.core.monetary.Price;
-import bisq.core.monetary.Volume;
-import bisq.core.offer.Offer;
-import bisq.core.offer.OfferUtil;
-import bisq.core.payment.PaymentAccount;
-import bisq.core.payment.payload.PaymentMethod;
-import bisq.core.provider.fee.FeeService;
-import bisq.core.provider.price.PriceFeedService;
+import haveno.core.account.witness.AccountAgeWitnessService;
+import haveno.core.btc.model.AddressEntry;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.locale.CurrencyUtil;
+import haveno.core.monetary.Price;
+import haveno.core.monetary.Volume;
+import haveno.core.offer.Offer;
+import haveno.core.offer.OfferUtil;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.payment.payload.PaymentMethod;
+import haveno.core.provider.fee.FeeService;
+import haveno.core.provider.price.PriceFeedService;
 
-import bisq.common.taskrunner.Model;
+import haveno.common.taskrunner.Model;
 
 import org.bitcoinj.core.Coin;
 
@@ -45,11 +45,11 @@ import lombok.extern.slf4j.Slf4j;
 
 import org.jetbrains.annotations.NotNull;
 
-import static bisq.core.btc.model.AddressEntry.Context.OFFER_FUNDING;
-import static bisq.core.offer.OfferPayload.Direction.SELL;
-import static bisq.core.util.VolumeUtil.getAdjustedVolumeForHalCash;
-import static bisq.core.util.VolumeUtil.getRoundedFiatVolume;
-import static bisq.core.util.coin.CoinUtil.minCoin;
+import static haveno.core.btc.model.AddressEntry.Context.OFFER_FUNDING;
+import static haveno.core.offer.OfferPayload.Direction.SELL;
+import static haveno.core.util.VolumeUtil.getAdjustedVolumeForHalCash;
+import static haveno.core.util.VolumeUtil.getRoundedFiatVolume;
+import static haveno.core.util.coin.CoinUtil.minCoin;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static org.bitcoinj.core.Coin.ZERO;
