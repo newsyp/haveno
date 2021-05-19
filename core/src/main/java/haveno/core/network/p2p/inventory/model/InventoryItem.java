@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.network.p2p.inventory.model;
+package haveno.core.network.p2p.inventory.model;
 
-import bisq.common.util.Tuple2;
+import haveno.common.util.Tuple2;
 
 import java.util.Collection;
 import java.util.List;
