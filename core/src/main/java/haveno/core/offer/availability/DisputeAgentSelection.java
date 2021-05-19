@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.availability;
+package haveno.core.offer.availability;
 
-import bisq.core.support.dispute.agent.DisputeAgent;
-import bisq.core.support.dispute.agent.DisputeAgentManager;
-import bisq.core.trade.statistics.TradeStatistics3;
-import bisq.core.trade.statistics.TradeStatisticsManager;
+import haveno.core.support.dispute.agent.DisputeAgent;
+import haveno.core.support.dispute.agent.DisputeAgentManager;
+import haveno.core.trade.statistics.TradeStatistics3;
+import haveno.core.trade.statistics.TradeStatisticsManager;
 
-import bisq.common.util.Tuple2;
+import haveno.common.util.Tuple2;
 
 import com.google.common.annotations.VisibleForTesting;
 
