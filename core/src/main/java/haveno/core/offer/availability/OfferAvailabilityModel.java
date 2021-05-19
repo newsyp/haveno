@@ -15,19 +15,19 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.availability;
+package haveno.core.offer.availability;
 
-import bisq.core.offer.Offer;
-import bisq.core.offer.messages.OfferAvailabilityResponse;
-import bisq.core.support.dispute.mediation.mediator.MediatorManager;
-import bisq.core.trade.statistics.TradeStatisticsManager;
-import bisq.core.user.User;
+import haveno.core.offer.Offer;
+import haveno.core.offer.messages.OfferAvailabilityResponse;
+import haveno.core.support.dispute.mediation.mediator.MediatorManager;
+import haveno.core.trade.statistics.TradeStatisticsManager;
+import haveno.core.user.User;
 
-import bisq.network.p2p.NodeAddress;
-import bisq.network.p2p.P2PService;
+import haveno.network.p2p.NodeAddress;
+import haveno.network.p2p.P2PService;
 
-import bisq.common.crypto.PubKeyRing;
-import bisq.common.taskrunner.Model;
+import haveno.common.crypto.PubKeyRing;
+import haveno.common.taskrunner.Model;
 
 import lombok.Getter;
 import lombok.Setter;
