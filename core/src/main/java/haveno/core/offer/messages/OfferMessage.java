@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.messages;
+package haveno.core.offer.messages;
 
-import bisq.network.p2p.DirectMessage;
-import bisq.network.p2p.UidMessage;
+import haveno.network.p2p.DirectMessage;
+import haveno.network.p2p.UidMessage;
 
-import bisq.common.proto.network.NetworkEnvelope;
+import haveno.common.proto.network.NetworkEnvelope;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
