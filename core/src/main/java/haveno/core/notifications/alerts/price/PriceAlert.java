@@ -15,20 +15,20 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications.alerts.price;
+package haveno.core.notifications.alerts.price;
 
-import bisq.core.locale.CurrencyUtil;
-import bisq.core.locale.Res;
-import bisq.core.monetary.Altcoin;
-import bisq.core.notifications.MobileMessage;
-import bisq.core.notifications.MobileMessageType;
-import bisq.core.notifications.MobileNotificationService;
-import bisq.core.provider.price.MarketPrice;
-import bisq.core.provider.price.PriceFeedService;
-import bisq.core.user.User;
-import bisq.core.util.FormattingUtils;
+import haveno.core.locale.CurrencyUtil;
+import haveno.core.locale.Res;
+import haveno.core.monetary.Altcoin;
+import haveno.core.notifications.MobileMessage;
+import haveno.core.notifications.MobileMessageType;
+import haveno.core.notifications.MobileNotificationService;
+import haveno.core.provider.price.MarketPrice;
+import haveno.core.provider.price.PriceFeedService;
+import haveno.core.user.User;
+import haveno.core.util.FormattingUtils;
 
-import bisq.common.util.MathUtils;
+import haveno.common.util.MathUtils;
 
 import org.bitcoinj.utils.Fiat;
 
