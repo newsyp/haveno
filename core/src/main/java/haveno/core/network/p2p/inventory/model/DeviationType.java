@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.network.p2p.inventory.model;
+package haveno.core.network.p2p.inventory.model;
 
 public interface DeviationType {
 }
