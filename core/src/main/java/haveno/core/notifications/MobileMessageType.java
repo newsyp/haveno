@@ -15,7 +15,7 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications;
+package haveno.core.notifications;
 
 public enum MobileMessageType {
     SETUP_CONFIRMATION,
