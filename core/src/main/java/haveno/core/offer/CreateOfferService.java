@@ -15,29 +15,29 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer;
+package haveno.core.offer;
 
-import bisq.core.btc.TxFeeEstimationService;
-import bisq.core.btc.wallet.BtcWalletService;
-import bisq.core.btc.wallet.Restrictions;
-import bisq.core.locale.CurrencyUtil;
-import bisq.core.locale.Res;
-import bisq.core.monetary.Price;
-import bisq.core.payment.PaymentAccount;
-import bisq.core.payment.PaymentAccountUtil;
-import bisq.core.provider.price.MarketPrice;
-import bisq.core.provider.price.PriceFeedService;
-import bisq.core.user.Preferences;
-import bisq.core.user.User;
-import bisq.core.util.coin.CoinUtil;
+import haveno.core.btc.TxFeeEstimationService;
+import haveno.core.btc.wallet.BtcWalletService;
+import haveno.core.btc.wallet.Restrictions;
+import haveno.core.locale.CurrencyUtil;
+import haveno.core.locale.Res;
+import haveno.core.monetary.Price;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.payment.PaymentAccountUtil;
+import haveno.core.provider.price.MarketPrice;
+import haveno.core.provider.price.PriceFeedService;
+import haveno.core.user.Preferences;
+import haveno.core.user.User;
+import haveno.core.util.coin.CoinUtil;
 
-import bisq.network.p2p.NodeAddress;
-import bisq.network.p2p.P2PService;
+import haveno.network.p2p.NodeAddress;
+import haveno.network.p2p.P2PService;
 
-import bisq.common.app.Version;
-import bisq.common.crypto.PubKeyRing;
-import bisq.common.util.Tuple2;
-import bisq.common.util.Utilities;
+import haveno.common.app.Version;
+import haveno.common.crypto.PubKeyRing;
+import haveno.common.util.Tuple2;
+import haveno.common.util.Utilities;
 
 import org.bitcoinj.core.Coin;
 
