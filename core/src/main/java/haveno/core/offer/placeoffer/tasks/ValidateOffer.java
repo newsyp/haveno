@@ -15,14 +15,15 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.placeoffer.tasks;
+package haveno.core.offer.placeoffer.tasks;
 
-import bisq.core.offer.Offer;
-import bisq.core.offer.placeoffer.PlaceOfferModel;
-import bisq.core.trade.messages.TradeMessage;
 
-import bisq.common.taskrunner.Task;
-import bisq.common.taskrunner.TaskRunner;
+import haveno.core.offer.Offer;
+import haveno.core.offer.placeoffer.PlaceOfferModel;
+import haveno,core.trade.messages.TradeMessage;
+
+import haveno.common.taskrunner.Task;
+import haveno.common.taskrunner.TaskRunner;
 
 import org.bitcoinj.core.Coin;
 
