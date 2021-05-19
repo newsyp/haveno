@@ -15,9 +15,9 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications;
+package haveno.core.notifications;
 
-import bisq.common.util.JsonExclude;
+import haveno.common.util.JsonExclude;
 
 import java.util.Date;
 
