@@ -15,18 +15,18 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.offer.availability.tasks;
+package haveno.core.offer.availability.tasks;
 
-import bisq.core.offer.AvailabilityResult;
-import bisq.core.offer.Offer;
-import bisq.core.offer.availability.DisputeAgentSelection;
-import bisq.core.offer.availability.OfferAvailabilityModel;
-import bisq.core.offer.messages.OfferAvailabilityResponse;
+import haveno.core.offer.AvailabilityResult;
+import haveno.core.offer.Offer;
+import haveno.core.offer.availability.DisputeAgentSelection;
+import haveno.core.offer.availability.OfferAvailabilityModel;
+import haveno.core.offer.messages.OfferAvailabilityResponse;
 
-import bisq.network.p2p.NodeAddress;
+import haveno.network.p2p.NodeAddress;
 
-import bisq.common.taskrunner.Task;
-import bisq.common.taskrunner.TaskRunner;
+import haveno.common.taskrunner.Task;
+import haveno.common.taskrunner.TaskRunner;
 
 import lombok.extern.slf4j.Slf4j;
 
