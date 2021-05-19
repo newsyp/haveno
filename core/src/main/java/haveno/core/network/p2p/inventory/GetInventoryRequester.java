@@ -15,24 +15,24 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.network.p2p.inventory;
+package haveno.core.network.p2p.inventory;
 
-import bisq.core.network.p2p.inventory.messages.GetInventoryRequest;
-import bisq.core.network.p2p.inventory.messages.GetInventoryResponse;
-import bisq.core.network.p2p.inventory.model.InventoryItem;
+import haveno.core.network.p2p.inventory.messages.GetInventoryRequest;
+import haveno.core.network.p2p.inventory.messages.GetInventoryResponse;
+import haveno.core.network.p2p.inventory.model.InventoryItem;
 
-import bisq.network.p2p.NodeAddress;
-import bisq.network.p2p.network.CloseConnectionReason;
-import bisq.network.p2p.network.Connection;
-import bisq.network.p2p.network.ConnectionListener;
-import bisq.network.p2p.network.MessageListener;
-import bisq.network.p2p.network.NetworkNode;
+import haveno.network.p2p.NodeAddress;
+import haveno.network.p2p.network.CloseConnectionReason;
+import haveno.network.p2p.network.Connection;
+import haveno.network.p2p.network.ConnectionListener;
+import haveno.network.p2p.network.MessageListener;
+import haveno.network.p2p.network.NetworkNode;
 
-import bisq.common.Timer;
-import bisq.common.UserThread;
-import bisq.common.app.Version;
-import bisq.common.handlers.ErrorMessageHandler;
-import bisq.common.proto.network.NetworkEnvelope;
+import haveno.common.Timer;
+import haveno.common.UserThread;
+import haveno.common.app.Version;
+import haveno.common.handlers.ErrorMessageHandler;
+import haveno.common.proto.network.NetworkEnvelope;
 
 import java.util.Map;
 import java.util.function.Consumer;
