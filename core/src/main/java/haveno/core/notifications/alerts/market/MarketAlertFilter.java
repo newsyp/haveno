@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications.alerts.market;
+package haveno.core.notifications.alerts.market;
 
-import bisq.core.payment.PaymentAccount;
-import bisq.core.proto.CoreProtoResolver;
+import haveno.core.payment.PaymentAccount;
+import haveno.core.proto.CoreProtoResolver;
 
-import bisq.common.proto.persistable.PersistablePayload;
+import haveno.common.proto.persistable.PersistablePayload;
 
 import java.util.ArrayList;
 import java.util.List;
