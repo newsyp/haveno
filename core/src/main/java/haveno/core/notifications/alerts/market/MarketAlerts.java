@@ -15,25 +15,25 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications.alerts.market;
+package haveno.core.notifications.alerts.market;
 
-import bisq.core.locale.CurrencyUtil;
-import bisq.core.locale.Res;
-import bisq.core.monetary.Altcoin;
-import bisq.core.monetary.Price;
-import bisq.core.notifications.MobileMessage;
-import bisq.core.notifications.MobileMessageType;
-import bisq.core.notifications.MobileNotificationService;
-import bisq.core.offer.Offer;
-import bisq.core.offer.OfferBookService;
-import bisq.core.offer.OfferPayload;
-import bisq.core.provider.price.MarketPrice;
-import bisq.core.provider.price.PriceFeedService;
-import bisq.core.user.User;
-import bisq.core.util.FormattingUtils;
+import haveno.core.locale.CurrencyUtil;
+import haveno.core.locale.Res;
+import haveno.core.monetary.Altcoin;
+import haveno.core.monetary.Price;
+import haveno.core.notifications.MobileMessage;
+import haveno.core.notifications.MobileMessageType;
+import haveno.core.notifications.MobileNotificationService;
+import haveno.core.offer.Offer;
+import haveno.core.offer.OfferBookService;
+import haveno.core.offer.OfferPayload;
+import haveno.core.provider.price.MarketPrice;
+import haveno.core.provider.price.PriceFeedService;
+import haveno.core.user.User;
+import haveno.core.util.FormattingUtils;
 
-import bisq.common.crypto.KeyRing;
-import bisq.common.util.MathUtils;
+import haveno.common.crypto.KeyRing;
+import haveno.common.util.MathUtils;
 
 import org.bitcoinj.utils.Fiat;
 
