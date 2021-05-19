@@ -21,7 +21,9 @@ import haveno.core.btc.wallet.BsqWalletService;
 import haveno.core.btc.wallet.BtcWalletService;
 import haveno.core.btc.wallet.TradeWalletService;
 import haveno.core.btc.wallet.XmrWalletService;
-import haveno,core.dao.DaoFacade;
+
+import bisq,core.dao.DaoFacade;
+
 import haveno.core.offer.Offer;
 import haveno.core.offer.OfferBookService;
 import haveno.core.support.dispute.arbitration.arbitrator.ArbitratorManager;
