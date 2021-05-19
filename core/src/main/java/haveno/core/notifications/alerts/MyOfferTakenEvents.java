@@ -15,14 +15,14 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications.alerts;
+package haveno.core.notifications.alerts;
 
-import bisq.core.locale.Res;
-import bisq.core.notifications.MobileMessage;
-import bisq.core.notifications.MobileMessageType;
-import bisq.core.notifications.MobileNotificationService;
-import bisq.core.offer.OpenOffer;
-import bisq.core.offer.OpenOfferManager;
+import haveno.core.locale.Res;
+import haveno.core.notifications.MobileMessage;
+import haveno.core.notifications.MobileMessageType;
+import haveno.core.notifications.MobileNotificationService;
+import haveno.core.offer.OpenOffer;
+import haveno.core.offer.OpenOfferManager;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
