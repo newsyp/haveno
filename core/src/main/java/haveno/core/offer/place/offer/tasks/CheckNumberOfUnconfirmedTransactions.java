@@ -1,10 +1,10 @@
-package bisq.core.offer.placeoffer.tasks;
+package haveno.core.offer.placeoffer.tasks;
 
-import bisq.core.locale.Res;
-import bisq.core.offer.placeoffer.PlaceOfferModel;
+import haveno.core.locale.Res;
+import haveno.core.offer.placeoffer.PlaceOfferModel;
 
-import bisq.common.taskrunner.Task;
-import bisq.common.taskrunner.TaskRunner;
+import haveno.common.taskrunner.Task;
+import haveno.common.taskrunner.TaskRunner;
 
 public class CheckNumberOfUnconfirmedTransactions extends Task<PlaceOfferModel> {
     public CheckNumberOfUnconfirmedTransactions(TaskRunner<PlaceOfferModel> taskHandler, PlaceOfferModel model) {
