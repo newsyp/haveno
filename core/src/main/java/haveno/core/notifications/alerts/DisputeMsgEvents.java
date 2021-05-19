@@ -15,19 +15,19 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications.alerts;
+package haveno.core.notifications.alerts;
 
-import bisq.core.locale.Res;
-import bisq.core.notifications.MobileMessage;
-import bisq.core.notifications.MobileMessageType;
-import bisq.core.notifications.MobileNotificationService;
-import bisq.core.support.SupportType;
-import bisq.core.support.dispute.Dispute;
-import bisq.core.support.dispute.mediation.MediationManager;
-import bisq.core.support.dispute.refund.RefundManager;
-import bisq.core.support.messages.ChatMessage;
+import haveno.core.locale.Res;
+import haveno.core.notifications.MobileMessage;
+import haveno.core.notifications.MobileMessageType;
+import haveno.core.notifications.MobileNotificationService;
+import haveno.core.support.SupportType;
+import haveno.core.support.dispute.Dispute;
+import haveno.core.support.dispute.mediation.MediationManager;
+import haveno.core.support.dispute.refund.RefundManager;
+import haveno.core.support.messages.ChatMessage;
 
-import bisq.network.p2p.P2PService;
+import haveno.network.p2p.P2PService;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;
