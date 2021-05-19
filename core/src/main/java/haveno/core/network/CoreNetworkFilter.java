@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.network;
+package haveno.core.network;
 
-import bisq.network.p2p.NodeAddress;
-import bisq.network.p2p.network.NetworkFilter;
+import haveno.network.p2p.NodeAddress;
+import haveno.network.p2p.network.NetworkFilter;
 
-import bisq.common.config.Config;
+import haveno.common.config.Config;
 
 import javax.inject.Inject;
 import javax.inject.Named;
