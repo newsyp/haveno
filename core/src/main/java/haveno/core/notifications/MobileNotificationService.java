@@ -15,16 +15,16 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.notifications;
+package haveno.core.notifications;
 
-import bisq.core.user.Preferences;
+import haveno.core.user.Preferences;
 
-import bisq.network.http.HttpClient;
+import haveno.network.http.HttpClient;
 
-import bisq.common.UserThread;
-import bisq.common.app.Version;
-import bisq.common.config.Config;
-import bisq.common.util.Utilities;
+import haveno.common.UserThread;
+import haveno.common.app.Version;
+import haveno.common.config.Config;
+import haveno.common.util.Utilities;
 
 import com.google.gson.Gson;
 
