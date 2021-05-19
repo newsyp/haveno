@@ -15,12 +15,12 @@
  * along with Bisq. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package bisq.core.network.p2p.inventory.messages;
+package haveno.core.network.p2p.inventory.messages;
 
-import bisq.core.network.p2p.inventory.model.InventoryItem;
+import haveno.core.network.p2p.inventory.model.InventoryItem;
 
-import bisq.common.app.Version;
-import bisq.common.proto.network.NetworkEnvelope;
+import haveno.common.app.Version;
+import haveno.common.proto.network.NetworkEnvelope;
 
 import com.google.common.base.Enums;
 import com.google.common.base.Optional;
